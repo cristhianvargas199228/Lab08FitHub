@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$dbname = 'fitpass';
+$host = 'containers-us-west-64.railway.app';
+$dbname = 'railway';
 $username = 'root';
-$password = '';
+$password = 'OUkPSgWBS0nIbBkRB2rl';
 
 try {
   $bd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
